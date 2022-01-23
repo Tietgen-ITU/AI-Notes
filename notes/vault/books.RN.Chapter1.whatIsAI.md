@@ -1,8 +1,8 @@
 ---
 id: YxM6Z25QVA0HvwrVoTRFW
-title: What is AI
+title: 1. What is AI
 desc: 'A definition of what Artificial intelligence is'
-updated: 1642947270444
+updated: 1642948279354
 created: 1642946132759
 ---
 Here there is some definitions to what AI is. However they are centered around different topics. 

@@ -1,8 +1,8 @@
 ---
 id: sAW1zaTny581PECbMuPWQ
-title: Foundation of Artificial Intelligence
+title: 2. Foundation of Artificial Intelligence
 desc: ''
-updated: 1642947012677
+updated: 1642948286799
 created: 1642944632338
 ---
 ![](/assets/images/2022-01-23-14-54-43.png)

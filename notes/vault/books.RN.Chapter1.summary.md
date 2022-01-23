@@ -1,8 +1,8 @@
 ---
 id: LrF1I4IntR3YDzqxFELCU
-title: Summary
+title: 3. Summary
 desc: 'Summary of chapter 1 of the Artificial Intelligence book'
-updated: 1642947125858
+updated: 1642948292865
 created: 1642947075236
 ---
 ![](/assets/images/2022-01-23-15-11-50.png)
