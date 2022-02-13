@@ -2,7 +2,7 @@
 id: hdaOWm2idoClfidLApYBU
 title: Tree
 desc: ''
-updated: 1644476076042
+updated: 1644487660879
 created: 1644317893343
 ---
 A tree data structure consists of **nodes** and **leaves**. 
@@ -25,7 +25,6 @@ According to the book then redundant paths is sometimes unavoidable.
 >*"In other cases, redundant paths are unavoidable. This includes all problems where the actions are reversible, such as route-finding problems and sliding-block puzzles"*[^1]
 
 A **loopy path** is special case of a redundant path where for example in the picture have "Arad" as a root which have "Timisoara" as a child which then has "Arad" as a child.
-
 
 ---
 [^1] Book RN, Chapter 3.3 *Searching for solutions*, Page 77, line 1
