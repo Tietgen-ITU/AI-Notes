@@ -2,7 +2,7 @@
 id: pIgMNEQdG3vm0X0uedLMo
 title: The Minimax algorithm
 desc: ''
-updated: 1645091130803
+updated: 1645978622038
 created: 1644834981118
 ---
 
@@ -33,3 +33,5 @@ The space complexity is $O(bm)$ for an algorithm that generates all actions at o
 We use the same algorithm, but uses a vector describing the max goal state for each player:
 
 ![](/assets/images/2022-02-17-10-44-13.png)
+
+
