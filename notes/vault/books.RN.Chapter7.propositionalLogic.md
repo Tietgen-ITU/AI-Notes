@@ -2,7 +2,7 @@
 id: mwv2prq6rhmcu7rhs34fld8
 title: Propositional Logic
 desc: ''
-updated: 1646300216250
+updated: 1646301316315
 created: 1646032953355
 ---
 Here it will go through everything that we have talked about in the previous sections ([[books.RN.Chapter7.knowledgeBasedAgents]], [[books.RN.Chapter7.logic]])
@@ -25,9 +25,23 @@ These rules can be expressed in a truth table:
 ![](/assets/images/2022-02-28-18-25-17.png)
 
 # Validity
+![](/assets/images/2022-03-03-10-37-59.png)
 
+This also seems a bit like tautologies. So it is sentences that is always true. 
+
+# Satisfiability
+![](/assets/images/2022-03-03-10-39-38.png)
+
+Having no models is equivalent to false.
+The statement at the bottom is unsatisfiable because it is a contradiction. If $a$ entails $b$ then the sentence $a$ ^ $not(b)$ cannot happen.
 
 # A simple inference procedure
 Now our goal is to see if the KB(i.e. the knowledge base) can derive new sentences. Or in other words **entail** new sentences.
 
 ![](/assets/images/2022-02-28-18-32-06.png)
+
+## Example
+![](/assets/images/2022-03-03-10-48-31.png)
+
+## Properties of the TT-Entails algorithm
+![](/assets/images/2022-03-03-10-55-14.png)
