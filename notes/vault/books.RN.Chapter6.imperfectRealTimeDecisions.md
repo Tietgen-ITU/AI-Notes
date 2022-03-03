@@ -2,7 +2,7 @@
 id: XPamZALf7Y9XMg9IpZFlI
 title: Imperfect Real-time Decisions
 desc: ''
-updated: 1645093236830
+updated: 1646285265089
 created: 1644838462027
 ---
 The minimax algorithm generates the entire game search space. And the beta-alpha version of the algorithm still has to search all the way to the terminal states for a smaller portion of the search space. 

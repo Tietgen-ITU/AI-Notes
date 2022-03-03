@@ -2,7 +2,7 @@
 id: vtk3sfdqwge6j2nusapalq9
 title: Assignment2
 desc: ''
-updated: 1645978712676
+updated: 1646246960968
 created: 1645978710679
 ---
 ```
@@ -38,7 +38,7 @@ chanceValues ← new List
 for each (c, weight) in CHANCEPATHS() do
     v ← −∞
     
-    for each a in ACTIONS(state) do
+    for each a in ACTIONS(state, c) do
         v ← MAX(v, MIN-VALUE(RESULT(s, a))) 
         
     ADD(chanceValues, v * weigth)
@@ -55,10 +55,10 @@ for each (c, weight) in CHANCEPATHS() do
 
     v←∞
 
-    for each a in ACTIONS(state) do
+    for each a in ACTIONS(state, c) do
         v ← MIN(v, MAX-VALUE(RESULT(s, a)))
 
-    ADD(chanceValues, v)
+    ADD(chanceValues, v * weigth)
 
 return SUM(chanceValues)
 ```
