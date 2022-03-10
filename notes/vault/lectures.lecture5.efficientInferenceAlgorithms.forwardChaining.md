@@ -2,7 +2,7 @@
 id: q2onojku2v6vdrjcfkccyxt
 title: Forward Chaining
 desc: ''
-updated: 1646304309650
+updated: 1646912632936
 created: 1646303958408
 ---
 ![](/assets/images/2022-03-03-11-39-20.png)
