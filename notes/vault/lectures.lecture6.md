@@ -2,7 +2,7 @@
 id: ig44dndw4amyc5xgl4vhjdo
 title: 6. Lecture - Binary Decision Tree
 desc: ''
-updated: 1646904835416
+updated: 1647451151959
 created: 1646902509465
 ---
 # Agenda

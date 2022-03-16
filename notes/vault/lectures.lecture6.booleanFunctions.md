@@ -2,7 +2,7 @@
 id: u2b2gpx34a18l7sa8zpkyfj
 title: Boolean Functions
 desc: ''
-updated: 1646907213228
+updated: 1647451162181
 created: 1646904819327
 ---
 ![](/assets/images/2022-03-10-10-06-14.png)

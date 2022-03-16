@@ -2,7 +2,7 @@
 id: rjpfha2pqbwkrtk9l793l5w
 title: 5. Lecture - Propositional Logic
 desc: ''
-updated: 1646298758187
+updated: 1647451212285
 created: 1646297993008
 ---
 ![](/assets/images/2022-03-03-10-00-28.png)
@@ -18,4 +18,4 @@ So what is then relevant for this lecture:
 ![](/assets/images/2022-03-03-10-04-28.png)
 
 
-**Inference** and **Entailment** is the key take away stuff here.
+**Inference** and **Entailment** is the key take away stuff here. 

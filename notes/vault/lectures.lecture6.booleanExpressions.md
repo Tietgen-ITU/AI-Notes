@@ -2,12 +2,12 @@
 id: h4gsp21gtwzbc90m3hf65s2
 title: Boolean Expressions
 desc: ''
-updated: 1646904780433
+updated: 1647451136101
 created: 1646904759116
 ---
 ![](/assets/images/2022-03-10-10-05-44.png)
 
-We are not going to talk about boolean expressions which is the same as sentences.
+We are not going to talk about boolean expressions which is the same as sentences. 
 
 #### Precedence
 Is how who is the strongest. It determines what we do first. Unles something is wrapped in parenthesis. 

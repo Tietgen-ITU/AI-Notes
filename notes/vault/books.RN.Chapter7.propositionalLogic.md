@@ -2,12 +2,12 @@
 id: mwv2prq6rhmcu7rhs34fld8
 title: Propositional Logic
 desc: ''
-updated: 1646301316315
+updated: 1647451234706
 created: 1646032953355
 ---
 Here it will go through everything that we have talked about in the previous sections ([[books.RN.Chapter7.knowledgeBasedAgents]], [[books.RN.Chapter7.logic]])
 
-# Syntax
+# Syntax 
 Here we have the syntax of the logic. 
 When creating a bit more complex sentences then the
 
