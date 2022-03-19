@@ -2,13 +2,13 @@
 id: acvtmiyxk41oo0pr63jp6fz
 title: 4. Assignment
 desc: ''
-updated: 1647451345718
+updated: 1647452683646
 created: 1646912268449
 ---
 # Mandatory Assignment
 
 ### Question 1
-![](/assets/images/2022-03-10-12-39-02.png)
+![](./assets/images/2022-03-10-12-39-02.png)
 
 #### Answer
 According to the book, then *Backward chaining* starts from the query $q$ and goes "down" the knowledge base until it is either proved or not. *Backward chaining* provides a depth-first search. It only uses the sentences that it requires and can in optimal situations find literals that proves that $q$ is true early.
@@ -16,11 +16,11 @@ According to the book, then *Backward chaining* starts from the query $q$ and go
 With the *Forward chaining* you have to go through all of the models in the knowledge base with breath first search in order to prove the sentence.
 
 ### Question 2
-![](/assets/images/2022-03-10-13-36-42.png)
+![](./assets/images/2022-03-10-13-36-42.png)
 
-![](/assets/images/2022-03-10-13-36-58.png)
+![](./assets/images/2022-03-10-13-36-58.png)
 
-![](/assets/images/2022-03-10-13-41-35.png)
+![](./assets/images/2022-03-10-13-41-35.png)
 
 #### Answer
 The answer is **no**. The reason is that it goes into an infinite loop when it wants to prove $C$. In order to prove $C$, it then needs to prove $B \land E \land G$ and in order to prove $G$ you need to prove $C$. Clearly this will never stop. 
@@ -75,7 +75,7 @@ function CHECK-ALL(KB, ls, premise) returns true or false
 ```
 
 ### Question 3
-![](/assets/images/2022-03-10-18-16-59.png)
+![](./assets/images/2022-03-10-18-16-59.png)
 
 #### Answer
 To answer the first part. No Smart's algorithm does not run in linear time. The issue with his algorithm is that it can revisit premises, hence trying to prove them again.
@@ -118,7 +118,8 @@ function CHECK-ALL(KB, ls, premise) returns true or false
     for each p in premise do
     
         if ls.containsKey(p) then
-            return ls.getValue(p)
+            if ls.getValue(p) == false then
+                return false
         else 
             ls.add(p, false)
         
