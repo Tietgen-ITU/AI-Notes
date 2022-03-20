@@ -2,7 +2,7 @@
 id: 9o6m8u88cx7jxx16vhnr421
 title: Backtracking Search
 desc: ''
-updated: 1647589840057
+updated: 1647765733274
 created: 1647589327599
 ---
 This is an algorithm that works for partial assignments([[books.RN.Chapter5.definingConstraintSatisfactionProblems]]). 
