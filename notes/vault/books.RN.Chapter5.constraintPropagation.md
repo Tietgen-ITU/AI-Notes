@@ -5,6 +5,12 @@ desc: ''
 updated: 1647589218334
 created: 1647588557665
 ---
+![](/assets/images/2022-03-24-10-29-06.png)
+
+What is the goal with it:
+
+![](/assets/images/2022-03-24-10-29-35.png)
+
 State space search in a regular search algorithm can do only one thing, and that is to search. However, in a CSP there is a choice: You can either search or do a specific type of inference which is called **constraint propagation**.
 
 Constraint propagation is when you use the constraints to reduce the number of legal values for a variable. 
@@ -23,8 +29,17 @@ The variable is arc-consistent if every value in its domain satisfies the variab
 
 ![](/assets/images/2022-03-18-08-37-48.png)
 
-#### Arc consistency algorithm
+### Example
+![](/assets/images/2022-03-24-10-31-57.png)
+
+### Arc consistency algorithm
 ![](/assets/images/2022-03-18-08-38-18.png)
 
+![](/assets/images/2022-03-24-10-41-29.png)
+
+![](/assets/images/2022-03-24-10-41-42.png)
+
+#### Complexity 
+![](/assets/images/2022-03-24-10-42-14.png)
 # Global Constraints
 A Global constraint is one involving an arbitrary number of variabels. 

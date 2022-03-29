@@ -13,7 +13,11 @@ When we define a satisfaction problem then it consists of three components, $X, 
   
 - $C$ is a set of constraints that specify allowable combinations of values. Each $C_i$ consists of a pair $(scope, rel)$ where the $scope$ is a tuple of variables that participate in the constraint and $rel$ is a relation that defines the values that those variables can take on.
 
-For example if $X_1$ and $X_2$ both have the domain $\{A,B\}$ then the constraint saying the two variables must have different values can be written as the following:
+This is also explained in the lecture:
+
+![](/assets/images/2022-03-24-10-13-17.png)
+
+So! For example if $X_1$ and $X_2$ both have the domain $\{A,B\}$ then the constraint saying the two variables must have different values can be written as the following:
 
 ![](/assets/images/2022-03-18-08-14-46.png)
 
@@ -28,6 +32,8 @@ A complete assignment is one where every variable is assigned and a solution to 
 
 A Partial Assignment is on that assigns values to only some of the variables.
 
+# CSP Solutions - Assignments
+![](/assets/images/2022-03-24-10-16-58.png)
 # Example
 ![](/assets/images/2022-03-18-08-19-30.png)
 
