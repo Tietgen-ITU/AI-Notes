@@ -5,14 +5,15 @@ desc: ''
 updated: 1648041722806
 created: 1648041722806
 ---
-![](/assets/images/2022-03-23-14-22-21.png)
+![](./assets/images/2022-03-23-14-22-21.png)
 
-![](/assets/images/2022-03-23-14-22-32.png)
+![](./assets/images/2022-03-23-14-22-32.png)
 
 # Question 1
-![](/assets/images/2022-03-23-14-22-51.png)
+![](./assets/images/2022-03-23-14-22-51.png)
 
 #### Answer
+
 So in order to make the negation of the expression $u$ with apply then we can use the $\oplus$, called EXOR(Exclusive OR). So a call to the `Apply` method would look like the following:
 
 ```
@@ -20,21 +21,20 @@ APPLY(EXOR, 1, U)
 ```
 
 # Question 2
-![](/assets/images/2022-03-23-14-47-45.png)
+![](./assets/images/2022-03-23-14-47-45.png)
 
 #### Answer
+
 So in order to use the function `Mk` to construct a ROBDD of a variable $x_i$, we can call it like the following:
 ```
 Mk(i, 0, 1)
 ```
-$$$
-\leftarrow
-$$$
 
 # Question 3
-![](/assets/images/2022-03-23-14-53-48.png)
+![](./assets/images/2022-03-23-14-53-48.png)
 
 #### Answer
+
 ```
 function Expr2ROBDD(expr) returns ROBDD
 

@@ -5,6 +5,11 @@ desc: 'This is notes about how to perform '
 updated: 1647772824924
 created: 1647771203609
 ---
+# Overview and motivation
+![](/assets/images/2022-03-31-10-02-28.png)
+> Anytime algorithms is an algorithm that improves the result over time. When the "time" is over then it returns the best result that it currently have.
+
+# What is Local Search
 Local search is an effective algorithm to solve many CSP's.
 
 The way it works is that the initial state assigns a value to every variable, and changes the value of one variable at a time. Local search tries to eliminate the violated constraints. 
@@ -17,6 +22,7 @@ The run time of this algorithm is roughly independent of the problem size[^2]
 ![](/assets/images/2022-03-20-11-27-15.png)
 
 # Tabu Search
+Here are some notes about [[Tabu Search|books.TS]]
 Tabu search is keeping a small list of recently visited states and forbidding the algorithm to return to those states. This can be used to escape from plateaux[^3].
 
 # Constraint weighting
