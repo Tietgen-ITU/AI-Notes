@@ -2,7 +2,7 @@
 id: s8pyld6pi0tatjqr2u7ksnu
 title: Construction of ROBDD (Reduced Ordered Binary Decision Diagram)
 desc: ''
-updated: 1647510687066
+updated: 1650535360596
 created: 1647197226440
 ---
 Here we talk about how to construct a binary decision tree.
