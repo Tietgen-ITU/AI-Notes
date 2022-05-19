@@ -2,7 +2,7 @@
 id: 52vm7qktysp8hwavs50cj49
 title: TS - Chapter 2 of Tabu Search
 desc: ''
-updated: 1648614813112
+updated: 1651744199692
 created: 1648614813112
 ---
 This is a note about Chapter 2 in a PDF about *Tabu Search* which is somekind of a [[Local Search for optimization problems|books.RN.Chapter4]].
@@ -33,4 +33,4 @@ In theory TS could go on forever. Of course we dont like that. So the PDF gives 
 ![](/assets/images/2022-03-31-06-59-51.png)
 
 ---
-[^1] Metaheuristic algorithm is a general strategy for guiding and controlling inner heuristics which is created for the problem which is at hand
+[^1] Metaheuristic algorithm is a general strategy for guiding and controlling inner heuristics which is created for the problem which is at hand. So it is some kind of balance between exploration and exploitation.

@@ -2,14 +2,15 @@
 id: c2vhezaryuajhfnzdlenozm
 title: Mk - MakeNode - Unique Table Representation
 desc: 'This is a data structure in order to ensure that we do not create BDDs with the same variable'
-updated: 1651143138098
+updated: 1651739084749
 created: 1651141254129
 ---
 In terms of terminology we have the following:
 
 ![](/assets/images/2022-04-28-12-22-28.png)
 
-We have to tables in the data structure.
+In short what the Mk algorithm does is to make a RBDD (Reduced Binary Decision Diagram).
+Mk has two tables in the data structure.
 
 #### Table: T
 T is the table that can quickly lookup the node id(identifier) and get the variable index(i) what the node points to if it goes to low(l) and what it points to if it goes to high(h).
