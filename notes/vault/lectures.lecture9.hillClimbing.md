@@ -2,7 +2,7 @@
 id: jpzd5tndf6iyvqjm1ovclkr
 title: Hill Climbing Algorithm
 desc: ''
-updated: 1652990345890
+updated: 1652990907951
 created: 1648715364905
 ---
 These notes builds on top of this [[books.rn.chapter4#hill-climbing]].
@@ -20,7 +20,7 @@ The hill climbing algorithm is a greedy algorithm. This means that out of all of
 
 If i want to find the global maximum then then exploitation is not a good option. 
 
-The thing is that between performance and exploiration there is the.
+The thing is that between performance and exploration there is the.
 
 ## Meta Heuristic 
 Meta heuristic is something that finds some kind of balance between these. In [[lectures.lecture9.simulatedAnnealing]] it tries to simulate a heuristic which works the same way as annealing metal. So it starts by exploring then it moves to exploitation.
