@@ -2,7 +2,7 @@
 id: 7xnmts9kqekluwo7dnaibw7
 title: Implementing The ROBDD Operations
 desc: ''
-updated: 1647200018136
+updated: 1652990323261
 created: 1647199447573
 ---
 Here small hints on implementing the different contruction algorithm. 
@@ -15,7 +15,7 @@ $$
 
 The pairing function that maps the pairs of natural numbers to natural numbers and $m$ is a prime. A choise for the pairing function is:
 
-![](/assets/images/2022-03-13-20-29-52.png)
+![](./assets/images/2022-03-13-20-29-52.png)
 
 This provides no collisions. 
 In order to determine $m$ then the book suggests that it could be a very large number. 

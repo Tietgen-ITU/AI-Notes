@@ -2,11 +2,11 @@
 id: j8x7d9vck3yvyyuhi9v2tpw
 title: Local Search
 desc: 'This is notes about how to perform '
-updated: 1647772824924
+updated: 1652990332012
 created: 1647771203609
 ---
 # Overview and motivation
-![](/assets/images/2022-03-31-10-02-28.png)
+![](./assets/images/2022-03-31-10-02-28.png)
 > Anytime algorithms is an algorithm that improves the result over time. When the "time" is over then it returns the best result that it currently have.
 
 # What is Local Search
@@ -19,7 +19,7 @@ When choosing a new value the most obvious heuristic is to use what is called th
 The run time of this algorithm is roughly independent of the problem size[^2]
 
 #### Example of Min-conflict
-![](/assets/images/2022-03-20-11-27-15.png)
+![](./assets/images/2022-03-20-11-27-15.png)
 
 # Tabu Search
 Here are some notes about [[Tabu Search|books.TS]]

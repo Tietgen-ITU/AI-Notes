@@ -2,7 +2,7 @@
 id: y8kmhbpie74fd94qaulzzvj
 title: 2. Normal Forms
 desc: ''
-updated: 1646571905960
+updated: 1652990324016
 created: 1646569626775
 ---
 # Disjunctive Normal Form (DNF)
@@ -20,16 +20,16 @@ $$
 
 *Conjunctive Normal Form* can be written as this:
 
-![](/assets/images/2022-03-06-13-41-36.png)
+![](./assets/images/2022-03-06-13-41-36.png)
 
-![](/assets/images/2022-03-06-13-42-22.png)
+![](./assets/images/2022-03-06-13-42-22.png)
 
 >**Note:** CNF is [[lectures.lecture5.efficientInferenceAlgorithms.conjunctiveNormalForm]]
 
-![](/assets/images/2022-03-06-13-43-11.png)
+![](./assets/images/2022-03-06-13-43-11.png)
 
 # If-then-else Normal Form (INF)
-![](/assets/images/2022-03-06-13-59-22.png)
+![](./assets/images/2022-03-06-13-59-22.png)
 By using the *Shannon Expression*
 
 $$
@@ -38,4 +38,4 @@ $$
 
 Then we can see that the boolean expression is an equivalence relation.
 
-![](/assets/images/2022-03-06-14-05-03.png)
+![](./assets/images/2022-03-06-14-05-03.png)

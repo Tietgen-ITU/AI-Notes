@@ -2,7 +2,7 @@
 id: hdaOWm2idoClfidLApYBU
 title: Tree
 desc: ''
-updated: 1644487660879
+updated: 1652990346097
 created: 1644317893343
 ---
 A tree data structure consists of **nodes** and **leaves**. 
@@ -18,7 +18,7 @@ A **node** is an extension of a leaf or can be. A node can also contain a value.
 A set of all the leaf nodes that is available for expansion at any given point is called the frontier. 
 
 Here is an example of a tree:
-![](/assets/images/2022-02-08-12-12-05.png)
+![](./assets/images/2022-02-08-12-12-05.png)
 
 # Redundant Paths
 According to the book then redundant paths is sometimes unavoidable.

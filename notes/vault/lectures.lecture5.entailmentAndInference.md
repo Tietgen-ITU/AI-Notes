@@ -2,10 +2,10 @@
 id: a1jhsz50rcav5vqfz151q3v
 title: Entailment And Inference
 desc: ''
-updated: 1646914641849
+updated: 1652990346100
 created: 1646299168592
 ---
-![](/assets/images/2022-03-03-10-20-26.png)
+![](./assets/images/2022-03-03-10-20-26.png)
 
 The symbol that is introduced here means "implies". In other words it stands for "entails".
 

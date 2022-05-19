@@ -2,12 +2,12 @@
 id: c2vhezaryuajhfnzdlenozm
 title: Mk - MakeNode - Unique Table Representation
 desc: 'This is a data structure in order to ensure that we do not create BDDs with the same variable'
-updated: 1651739084749
+updated: 1652990309260
 created: 1651141254129
 ---
 In terms of terminology we have the following:
 
-![](/assets/images/2022-04-28-12-22-28.png)
+![](./assets/images/2022-04-28-12-22-28.png)
 
 In short what the Mk algorithm does is to make a RBDD (Reduced Binary Decision Diagram).
 Mk has two tables in the data structure.
@@ -15,19 +15,19 @@ Mk has two tables in the data structure.
 #### Table: T
 T is the table that can quickly lookup the node id(identifier) and get the variable index(i) what the node points to if it goes to low(l) and what it points to if it goes to high(h).
 
-![](/assets/images/2022-04-28-12-35-49.png)
+![](./assets/images/2022-04-28-12-35-49.png)
 
 #### Table: H
 H is the table that maps the variable index, low, and high to a specific unique node identifier.
 The H table is the inverse of table T.
 
-![](/assets/images/2022-04-28-12-35-58.png)
+![](./assets/images/2022-04-28-12-35-58.png)
 
 # Running time of Mk data structure
 The running time of the data structure is in constant time, so $O(1)$. That is because this could e.g. be two hashtables.
 
 # The algorithm
-![](/assets/images/2022-04-28-12-34-08.png)
+![](./assets/images/2022-04-28-12-34-08.png)
 
 ## Explanation
 At the first line Mk performs a redundancy test. That is if the low and high points to the same node then just return the low node. Because there is no reason to make a new node.
@@ -40,4 +40,4 @@ If we get to line 4 then it means that it is neither a redundant node and we do 
 ### General rules with Mk
 So in Mk when it is being initialized it reserves the node ids 0 and 1 to low and high respectively. This means that the first node that is being created after initialization in the table would then be 2 and so on...
 
-![](/assets/images/2022-04-28-12-52-16.png)
+![](./assets/images/2022-04-28-12-52-16.png)

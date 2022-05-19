@@ -2,15 +2,15 @@
 id: ii8rrtvvhi908l3npmffbdg
 title: Assignment6
 desc: ''
-updated: 1648041722806
+updated: 1652990320741
 created: 1648041722806
 ---
-![](./assets/images/2022-03-23-14-22-21.png)
+![](../assets/images/2022-03-23-14-22-21.png)
 
-![](./assets/images/2022-03-23-14-22-32.png)
+![](../assets/images/2022-03-23-14-22-32.png)
 
 # Question 1
-![](./assets/images/2022-03-23-14-22-51.png)
+![](../assets/images/2022-03-23-14-22-51.png)
 
 #### Answer
 
@@ -21,7 +21,7 @@ APPLY(EXOR, 1, U)
 ```
 
 # Question 2
-![](./assets/images/2022-03-23-14-47-45.png)
+![](../assets/images/2022-03-23-14-47-45.png)
 
 #### Answer
 
@@ -31,7 +31,7 @@ Mk(i, 0, 1)
 ```
 
 # Question 3
-![](./assets/images/2022-03-23-14-53-48.png)
+![](../assets/images/2022-03-23-14-53-48.png)
 
 #### Answer
 

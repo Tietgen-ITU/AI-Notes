@@ -2,7 +2,7 @@
 id: lYiSWvXN7BkyK8KHSCayZ
 title: Greedy Best First Search
 desc: ''
-updated: 1644489405898
+updated: 1652990315428
 created: 1644479898371
 ---
 **Note:** this could look alike [[algorithms.search.informedSearch.aStar]]. However the difference is that A* includes the cost of reaching the node.
@@ -15,12 +15,12 @@ It uses a heuristic function to determine the node which is closest:
 
 $f(n)=h(n)$
 
-![](/assets/images/2022-02-10-11-30-42.png)
+![](./assets/images/2022-02-10-11-30-42.png)
 
 This is complet because it does not ignore other nodes.
 # Example from the book
-![](/assets/images/2022-02-10-11-31-08.png)
-![](/assets/images/2022-02-10-11-31-17.png)
-![](/assets/images/2022-02-10-11-31-32.png)
-![](/assets/images/2022-02-10-11-31-48.png)
-![](/assets/images/2022-02-10-11-32-03.png)
+![](./assets/images/2022-02-10-11-31-08.png)
+![](./assets/images/2022-02-10-11-31-17.png)
+![](./assets/images/2022-02-10-11-31-32.png)
+![](./assets/images/2022-02-10-11-31-48.png)
+![](./assets/images/2022-02-10-11-32-03.png)

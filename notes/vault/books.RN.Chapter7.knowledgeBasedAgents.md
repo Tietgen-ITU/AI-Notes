@@ -2,7 +2,7 @@
 id: 1pe0gju4ulqee08yphsso5i
 title: knowledgeBasedAgents
 desc: ''
-updated: 1645980834704
+updated: 1652990338960
 created: 1645979175196
 ---
 The central thing of a knowledge based agent is it knowledge base or KB. 
@@ -25,6 +25,6 @@ The function **Make-Action-Query** constructs a sentence that asks what action s
 
 The function **Make-ActionSentence** constructs a sentence asserting that the chosen action was executed. 
 
-![](/assets/images/2022-02-27-17-53-53.png)
+![](./assets/images/2022-02-27-17-53-53.png)
 
 

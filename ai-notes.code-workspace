@@ -7,7 +7,7 @@
 	"settings": {
 		"workbench.colorTheme": "Horizon Light",
 		"dendron.rootDir": ".",
-		"pasteImage.path": "${currentFileDir}/assets/images",
+		"pasteImage.path": ".${currentFileDir}/assets/images",
 		"pasteImage.prefix": "/",
 		"markdown-preview-enhanced.enableWikiLinkSyntax": true,
 		"markdown-preview-enhanced.wikiLinkFileExtension": ".md",

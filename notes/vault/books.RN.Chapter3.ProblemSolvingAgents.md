@@ -2,7 +2,7 @@
 id: WtzrwEZBEnJs8QcbrQ1D4
 title: Problem Solving Agents
 desc: ''
-updated: 1644317728725
+updated: 1652990327194
 created: 1644314907043
 ---
 Goals help organize behavior by limiting the objectives that the agent is trying to achieve and the actions that it needs to consider. Therefore, a **goal formulation**, based on the current situation and the agents performance measure is the first step in problem solving. 
@@ -27,7 +27,7 @@ A **Path cost** function that assigns a numeric cost to each. The problem-solvin
 A **Solution** to a problem is an action sequence that leads from the initial state to a goal state. An **Optimal solution** is a solution that has the lowest path cost of all of the solutions available. 
 
 An example of how such problems are being described:
-![](/assets/images/2022-02-08-11-55-27.png)
+![](./assets/images/2022-02-08-11-55-27.png)
 
 ## Summary
 This was a model to describe a problem in terms of:

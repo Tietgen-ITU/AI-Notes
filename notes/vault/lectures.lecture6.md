@@ -2,11 +2,11 @@
 id: ig44dndw4amyc5xgl4vhjdo
 title: 6. Lecture - Binary Decision Tree
 desc: ''
-updated: 1647451151959
+updated: 1652990345887
 created: 1646902509465
 ---
 # Agenda
-![](/assets/images/2022-03-10-10-02-49.png)
+![](./assets/images/2022-03-10-10-02-49.png)
 
 ## Symbolic representation
 Symbolic representatino is when you accumulate a state to a more simpel data type.

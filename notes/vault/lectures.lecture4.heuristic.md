@@ -2,12 +2,12 @@
 id: pc6wrxuq0wrenabgquav83b
 title: Heuristic
 desc: ''
-updated: 1645694928256
+updated: 1652990345971
 created: 1645693789027
 ---
 We want to define what is a *"strong"* heuristic.
 
-![](/assets/images/2022-02-24-10-17-10.png)
+![](./assets/images/2022-02-24-10-17-10.png)
 
 The **manhattan** distance is the number of blocks to its destination.
 

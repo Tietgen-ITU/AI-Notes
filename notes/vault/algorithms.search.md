@@ -2,13 +2,13 @@
 id: Yg1JFFmjjhW4znxORv0mD
 title: Search
 desc: ''
-updated: 1644478331144
+updated: 1652990316594
 created: 1644476235535
 ---
 In the book it says that there is a "template" of an algorithm that they generally follow:
 
-![](/assets/images/2022-02-10-07-58-31.png)
-![](/assets/images/2022-02-10-07-59-55.png)
+![](./assets/images/2022-02-10-07-58-31.png)
+![](./assets/images/2022-02-10-07-59-55.png)
 
 >**Note:** that the highlighted black lines in the graph search is the additions to the "general" tree search algotihm
 
@@ -16,8 +16,8 @@ In the book it says that there is a "template" of an algorithm that they general
 There is a general infrastructure for search algorithms. Search algoritm require data structures to keep track of the search tree that being constructed while searching. 
 
 For each node $n$ we have a strucure that contains four components:
-![](/assets/images/2022-02-10-08-07-57.png)
-![](/assets/images/2022-02-10-08-08-54.png)
+![](./assets/images/2022-02-10-08-07-57.png)
+![](./assets/images/2022-02-10-08-08-54.png)
 
 ## Measuring 
 About measuring performance. Go read the following first: [[algorithms.measurePerformance]].
