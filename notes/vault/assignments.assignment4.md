@@ -2,7 +2,7 @@
 id: acvtmiyxk41oo0pr63jp6fz
 title: 4. Assignment
 desc: ''
-updated: 1652990319746
+updated: 1653743361120
 created: 1646912268449
 ---
 # Mandatory Assignment
@@ -16,11 +16,11 @@ According to the book, then *Backward chaining* starts from the query $q$ and go
 With the *Forward chaining* you have to go through all of the models in the knowledge base with breath first search in order to prove the sentence.
 
 ### Question 2
-![](../assets/images/2022-03-10-13-36-42.png)
+![](./assets/images/2022-03-10-13-36-42.png)
 
-![](../assets/images/2022-03-10-13-36-58.png)
+![](./assets/images/2022-03-10-13-36-58.png)
 
-![](../assets/images/2022-03-10-13-41-35.png)
+![](./assets/images/2022-03-10-13-41-35.png)
 
 #### Answer
 The answer is **no**. The reason is that it goes into an infinite loop when it wants to prove $C$. In order to prove $C$, it then needs to prove $B \land E \land G$ and in order to prove $G$ you need to prove $C$. Clearly this will never stop. 

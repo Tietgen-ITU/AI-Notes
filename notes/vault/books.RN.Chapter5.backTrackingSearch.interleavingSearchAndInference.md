@@ -2,7 +2,7 @@
 id: f3xoqheq6uyk9jshx1k6hb9
 title: Interleaving Search And Inference
 desc: ''
-updated: 1652990328483
+updated: 1653763401692
 created: 1647590299269
 ---
 We have seen how *AC-3* and other algorithms has reduced the domain of variables before we begin the search. 
@@ -23,7 +23,7 @@ Here is an example of how to do backtracking search with forward checking.
 
 However, forward checking does not catch all inconsistencies. The reason for this, is that it makes the current variable arc consistent, but does not do the look ahead in order to make all other variables arc-consistent. 
 
-But there is, of course, an algorithm to solve this. It is called **MAC (Maintaining Arc Consistency)**. It detects the inconsistencies. It does so by doing to following:
+But there is, of course, an algorithm to solve this. It is called ** (Maintaining Arc Consistency)**. It detects the inconsistencies. It does so by doing to following:
 
 ![](./assets/images/2022-03-20-10-07-09.png)
 
