@@ -2,7 +2,7 @@
 id: lYiSWvXN7BkyK8KHSCayZ
 title: Greedy Best First Search
 desc: ''
-updated: 1652990315428
+updated: 1653989337410
 created: 1644479898371
 ---
 **Note:** this could look alike [[algorithms.search.informedSearch.aStar]]. However the difference is that A* includes the cost of reaching the node.
@@ -18,6 +18,9 @@ $f(n)=h(n)$
 ![](./assets/images/2022-02-10-11-30-42.png)
 
 This is complet because it does not ignore other nodes.
+
+# Algorithm
+![](/Users/andreastietgen/Documents/Programmering/UNI/ArtificialIntelligence/AI-Notes/notes/vault/assets/images/2022-05-31-11-28-55.png)
 # Example from the book
 ![](./assets/images/2022-02-10-11-31-08.png)
 ![](./assets/images/2022-02-10-11-31-17.png)
