@@ -2,7 +2,7 @@
 id: DmTpWuxO4Y2mco94nBFtD
 title: A*
 desc: ''
-updated: 1652990314112
+updated: 1653991221914
 created: 1644480129935
 ---
 ![](./assets/images/2022-02-10-11-37-47.png)
@@ -22,14 +22,14 @@ This algorithm is nearly identical to [[algorithms.search.uninformedSearch.unifo
 
 
 # Admissible heuristic
-![](../assets/images/2022-02-10-11-38-48.png)
-It should never overestimate the cost. So that means if the distance to the goal is 13 then an admissible heuristic would give a result equal or less than that.
+![](./assets/images/2022-02-10-11-38-48.png)
+It should never overestimate the cost. So that means if the distance to the goal is 13 then an admissible heuristic would give a result equal to or less than that.
 
 ## A valid Heuristic
 A valid heuristic is a heuristic where the goal node has a heuristic of 0 and that the heuristic is non-negative for all the other states.
 
 # Consistent Heuristic
-![](../assets/images/2022-02-10-11-41-45.png)
+![](./assets/images/2022-02-10-11-41-45.png)
 >**NOTE:** Just to add. If a node $a$ has a heuristic that is 13 then the distance between node $a$ and node $b$ (which is this c function) plus the heuristic from node $b$ to the goal has to be greater than or equal to 13 in order for that to be consistent. Remember this has to be true for all nodes. 
 
 
