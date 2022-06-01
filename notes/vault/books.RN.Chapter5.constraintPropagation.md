@@ -2,7 +2,7 @@
 id: wf7029vaichwfemwfql6com
 title: Constraint Propagation - Inference in CSPs
 desc: ''
-updated: 1652990330072
+updated: 1654073076527
 created: 1647588557665
 ---
 ![](./assets/images/2022-03-24-10-29-06.png)
@@ -42,4 +42,4 @@ The variable is arc-consistent if every value in its domain satisfies the variab
 #### Complexity 
 ![](./assets/images/2022-03-24-10-42-14.png)
 # Global Constraints
-A Global constraint is one involving an arbitrary number of variabels. 
+A Global constraint is one involving an arbitrary number of variabels. Constraint propagation is stronger for Global constraints then constraint propagation for its binary representation.

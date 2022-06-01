@@ -2,7 +2,7 @@
 id: y8kmhbpie74fd94qaulzzvj
 title: 2. Normal Forms
 desc: ''
-updated: 1652990324016
+updated: 1654072881807
 created: 1646569626775
 ---
 # Disjunctive Normal Form (DNF)
@@ -27,6 +27,8 @@ $$
 >**Note:** CNF is [[lectures.lecture5.efficientInferenceAlgorithms.conjunctiveNormalForm]]
 
 ![](./assets/images/2022-03-06-13-43-11.png)
+
+When trying to finding a satifying solution to a DNF, then it takes polynomial time
 
 # If-then-else Normal Form (INF)
 ![](./assets/images/2022-03-06-13-59-22.png)
